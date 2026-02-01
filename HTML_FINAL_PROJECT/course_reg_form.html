@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Registration Form</title>
+</head>
+
+
+<body>
+<form action="">
+    <fieldset>
+        <legend>Personal Details</legend>
+    <table>
+    <h2>Course Registration Form</h2>
+    <tr>
+        <td><label for="fname">First Name</label></td>
+        <td><input name="fname" id="fname" placeholder="EX: LAVANYA" type="text" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="sname">Surname Name</label></td>
+        <td><input name="sname" id="sname" placeholder="EX: M" type="text" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="mnum">Mobile Number</label></td>
+        <td><input name="mnum" id="mnum" placeholder="EX: 8148445877" type="tel" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="email">Email</label></td>
+        <td><input name="email" id="email" placeholder="EX: lava@gmail.com" type="email" required><br></td>
+    </tr>
+
+    <tr>    
+        <td><label for="password">Password</label></td>
+        <td><input name="password" id="password"  max="8" placeholder="EX: Maximun 8 Character" type="password" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="cpassword">Confirm Password</label></td>
+        <td><input name="cpassword" id="cpassword"  max="8" placeholder="EX: Maximun 8 Character" type="password" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="dob">DOB</label></td>
+        <td><input name="dob" id="dob" type="date" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="age">AGE</label></td>
+        <td><input name="age" id="age"  min="18" max
+            ="60" type="number" required><br></td>
+    </tr>
+
+    <tr>
+        <td><label for="gender">Gender</label></td>
+        <td><input name="gender" id="gender" type="radio"> <label for="male">Male</label>
+            <input name="gender" id="gender" type="radio"> <label for="female">Female</label>
+            <input name="gender" id="gender" type="radio"> <label for="other">Other</label><br>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="selectcountry">Select Country</label></td>
+        <td>
+            <select name="selectcountry" id="selectcountry">
+                <option value="INDIA">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="RUSSIA">RUSSIA</option><br>
+            </select>
+        </td>
+    </tr>
+
+    <tr>
+        <td><label for="uploadpicture">Upload Picture</label></td>
+        <td><input name="uploadpicture" id="uploadpicture" type="file"><br></td>
+    </tr>
+
+    <tr>
+        <td><input type="reset"></td>
+    </tr>
+    </table>
+    </fieldset>
+    <br>
+    <fieldset>
+        <legend>Course Details</legend>
+    <table>
+    <tr><td><label for="selectcourse">Select Course</label></td></tr>
+        <tr>
+            <td colspan="2">
+                <select name="selectcourse" id="selectcourse">
+                    <option value="Python Full Stack Developer">Python Full Stack Developer</option>
+                    <option value="Web Developer">Web Developer</option>
+                    <option value="Mern Stack Developer">Mern Stack Developer</option>
+                </select>
+            </td>
+        </tr>
+
+        <tr>
+            <td><label for="deliverymode">Delivery Mode</label></td>
+            <td>
+                <input name="deliverymode" id="deliverymode" type="radio"> <label for="ONLINE">ONLINE</label>
+                <input name="deliverymode" id="deliverymode" type="radio"> <label for="OFFLINE">OFFLINE</label>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="institutename">INSTITUTE NAME</label></td>
+            <td><input name="institutename" id="institutename" type="text"></td>
+        </tr>
+
+        
+        <tr>
+            <td colspan="2">Choose your present coding knowledge level:</td>
+        </tr>
+
+        <tr><td><input type="range" name="" id=""></td></tr>
+        
+        <tr>
+            <td>Comments</td>
+        </tr>
+        <tr>
+            <td colspan="2">
+                <textarea name="comments" id="comments" rows="5" cols="50"></textarea>
+            </td>
+        </tr>
+    </table>
+    </fieldset>
+    <input type="submit" name="" id="">
+</form>
+</body>
+</html>
